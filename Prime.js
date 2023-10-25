@@ -1,6 +1,6 @@
 function isPrime(number) {
     if (number <= 1) {
-        return true;
+        return false;
     }
     
     if (number <= 3) {
@@ -16,7 +16,7 @@ function isPrime(number) {
         }
     }
 
-    return false;
+    return true;
 }
 
 // Example usage:
